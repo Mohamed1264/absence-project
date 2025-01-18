@@ -1,0 +1,29 @@
+.barchart-container {
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background for contrast */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.barchart-row {
+    height: 400px; /* Fixed height for chart area */
+    max-width: 940px;
+}
+
+.bar {
+    background: linear-gradient(180deg, #e4e1fb, #f8f9fa 80%); /* Gradient for bars */
+    
+    position: relative;
+    transition: transform 0.2s;
+    border-top: 5px solid #beb8e4;
+    
+}
+
+
+
+.label,.value {
+    margin-top: 10px;
+    font-weight: 500;
+    color: #555;
+    font-size: 14px;
+}
